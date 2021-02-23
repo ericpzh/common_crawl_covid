@@ -18,3 +18,6 @@ And the end, due to the aforementioned trade-off, 2) and 4) are selected to be t
 
 The 6 hour time window isn't quite enough for me to get to 1000 as the aforementioned trade-off says. One strategy is to parallelize the search since python isn't a language that is known for its speed. Still, with strict criteria, getting to 1000 within 6 hours is not possible for me.
 
+# Results:
+
+Results in pages1.txt is a comma-seperated list of url.
