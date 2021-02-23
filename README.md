@@ -1,6 +1,7 @@
-# Basic idea:
+# Overview:
 
-The basic idea behind this was to use regular expression matching to locate keywords. The higher number of keyword exists in the page, the more likely it's to be the related page. The key parameter here is the threshold count. With limited time, I don't get the chance to play with it and thus used a random number of 10. There are is always the trade-off of the number of pages that match the criteria and how accurate each page is. With stricter criteria, it will take too long to look for the 1000 pages required, and therefore an acceptable solution should have some number of falsely selected pages. With the huge penalty of a falsely selected page, I've selected to go with the stricter one, and therefore due to runtime limitation, not able to get to the 1000 number.
+The basic idea behind this was to use regular expression matching to locate keywords. The higher number of keyword exists in the page, the more likely it's to be the related page. The key parameter here is the threshold count. With limited time, I don't get the chance to play with it and thus used a random number of 10. 
+There are is always the trade-off of the number of pages that match the criteria and how accurate each page is. With stricter criteria, it will take too long to look for the 1000 pages required, and therefore an acceptable solution should have some number of falsely selected pages. With the huge penalty of a falsely selected page, I've selected to go with the stricter one, and therefore due to runtime limitation, not able to get to the 1000 number.
 
 # Regex strategy:
 
